@@ -26,5 +26,32 @@ class ProgramFinal
         return Convert.ToInt32(Console.ReadLine());
     }
 
-    
+    static string[] ReadInputStrings(int arraySize0)
+    {
+        string[] strings = new string[arraySize];
+        for (int i = 0; i < arraySize; i++)
+        {
+            Console.Write($"Введите строку {i + 1}: ");
+            strings[i] = Console.ReadLine();
+        }
+        return strings;
+    }
+
+    static string[] FilterStrings(string[] inputStrings)
+    {
+        int SuitableCount = CounterSuitableStrings(inputStings);
+        string[] SuitableStrings = new string[SuitableCount];
+        int index = 0;
+        forearch (string str in inputStings)
+        {
+            if (str.Length <=3)
+            {
+                SuitableStrings[index] = str;
+                index++;
+            }
+        }
+        return SuitableStrings;
+    }
+
+    static int CountSuitableStrings(string[] strings)
 }
