@@ -16,7 +16,7 @@ class ProgramFinal
     {
         int arraySize = RequestArraySize();
         string[] inputStrings = ReadInputStrings(arraySize);
-        string[] SuitableStrings = FilterStrings(inputStings);
+        string[] SuitableStrings = FilterStrings(inputStrings);
         DisplayResults(inputStrings, SuitableStrings);
     }
 
@@ -26,7 +26,7 @@ class ProgramFinal
         return Convert.ToInt32(Console.ReadLine());
     }
 
-    static string[] ReadInputStrings(int arraySize0)
+    static string[] ReadInputStrings(int arraySize)
     {
         string[] strings = new string[arraySize];
         for (int i = 0; i < arraySize; i++)
@@ -39,10 +39,10 @@ class ProgramFinal
 
     static string[] FilterStrings(string[] inputStrings)
     {
-        int SuitableCount = CounterSuitableStrings(inputStings);
+        int SuitableCount = CounterSuitableStrings(inputStrings);
         string[] SuitableStrings = new string[SuitableCount];
         int index = 0;
-        forearch (string str in inputStings)
+        forearch (string str in inputStrings)
         {
             if (str.Length <=3)
             {
@@ -60,7 +60,7 @@ class ProgramFinal
         {
             if (str.Length <= 3)
             {
-                coung++;
+                count++;
             }
         }
         return count;
@@ -68,7 +68,7 @@ class ProgramFinal
     static void DisplayResults(string[] inputStrings, string[] SuitableStrings)
     {
         Console.WriteLine("Исходный массив строк: ");
-        forearch (string str in inputStings)
+        forearch (string str in inputStrings)
         {
             Console.WriteLine(str);
         }
