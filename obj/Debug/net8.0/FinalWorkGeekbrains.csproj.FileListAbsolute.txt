@@ -1,0 +1,5 @@
+C:\Users\nastu\OneDrive\Рабочий стол\Проекты\GeekBrains. Домашние задания\FinalWorkGeekbrains\obj\Debug\net8.0\FinalWorkGeekbrains.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nastu\OneDrive\Рабочий стол\Проекты\GeekBrains. Домашние задания\FinalWorkGeekbrains\obj\Debug\net8.0\FinalWorkGeekbrains.AssemblyInfoInputs.cache
+C:\Users\nastu\OneDrive\Рабочий стол\Проекты\GeekBrains. Домашние задания\FinalWorkGeekbrains\obj\Debug\net8.0\FinalWorkGeekbrains.AssemblyInfo.cs
+C:\Users\nastu\OneDrive\Рабочий стол\Проекты\GeekBrains. Домашние задания\FinalWorkGeekbrains\obj\Debug\net8.0\FinalWorkGeekbrains.csproj.CoreCompileInputs.cache
+C:\Users\nastu\OneDrive\Рабочий стол\Проекты\GeekBrains. Домашние задания\FinalWorkGeekbrains\obj\Debug\net8.0\FinalWorkGeekbrains.sourcelink.json
