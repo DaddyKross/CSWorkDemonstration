@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinalWorkGeekbrains")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b95b60a4a51207efe9124891c8ab0a01de10795")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4aaf472b4c5915562c3855a6d45033da785c4fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinalWorkGeekbrains")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinalWorkGeekbrains")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
