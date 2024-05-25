@@ -54,4 +54,29 @@ class ProgramFinal
     }
 
     static int CountSuitableStrings(string[] strings)
+    {
+        int coung = 0;
+        forearch (string str in strings)
+        {
+            if (str.Length <= 3)
+            {
+                coung++;
+            }
+        }
+        return count;
+    }
+    static void DisplayResults(string[] inputStrings, string[] SuitableStrings)
+    {
+        Console.WriteLine("Исходный массив строк: ");
+        forearch (string str in inputStings)
+        {
+            Console.WriteLine(str);
+        }
+
+        Console.WriteLine("Новый массив с подходящими строками (длина не более 3 символов): ");
+        forearch (string str in SuitableStrings)
+        {
+            Console.WriteLine(str);
+        }
+    }
 }
