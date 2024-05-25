@@ -13,4 +13,18 @@ using System;
 class ProgramFinal
 {
     static void Main()
+    {
+        int arraySize = RequestArraySize();
+        string[] inputStrings = ReadInputStrings(arraySize);
+        string[] SuitableStrings = FilterStrings(inputStings);
+        DisplayResults(inputStrings, SuitableStrings);
+    }
+
+    static int RequestArraySize()
+    {
+        Console.Write("Введите количество строк в массиве: ");
+        return Convert.ToInt32(Console.ReadLine());
+    }
+
+    
 }
